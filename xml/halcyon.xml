@@ -53,6 +53,8 @@
   <!-- External -->
   <project path="external/exfatprogs" name="android_external_exfatprogs" remote="lineage" />
   <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="lineage" />
+  <project path="external/setupcompat" name="external_setupcompat" remote="halcyon" />
+  <project path="external/setupdesign" name="external_setupdesign" remote="halcyon" />
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="frameworks_av" remote="bloom" />
@@ -84,6 +86,7 @@
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="bloom" />
   <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="bloom" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="bloom" />
+  <project path="packages/apps/SetupWizard" name="packages_apps_SetupWizard" remote="halcyon" />
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="bloom" />
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="bloom" />
 
