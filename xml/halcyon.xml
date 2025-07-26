@@ -88,6 +88,7 @@
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="bloom" />
   <project path="packages/apps/SetupWizard" name="packages_apps_SetupWizard" remote="halcyon" />
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="bloom" />
+  <project path="packages/apps/TouchGestures" name="packages_apps_TouchGestures" remote="bloom" />
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="bloom" />
 
   <!-- Packages Modules -->
