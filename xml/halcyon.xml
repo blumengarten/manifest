@@ -70,9 +70,6 @@
   <!-- Kernel -->
   <project path="kernel/configs" name="kernel_configs" remote="bloom" />
 
-  <!-- Packages Services
-  <project path="packages/services/SmartSpace" name="packages_services_SmartSpace" remote="halcyon" /> -->
-
   <!-- Packages Libraries -->
   <project path="packages/libraries/BlurView" name="packages_libraries_BlurView" remote="halcyon" />
   <project path="packages/libraries/preferences" name="packages_libraries_preferences" remote="halcyon" />
@@ -83,6 +80,7 @@
   <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="bloom" />
   <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="bloom" />
   <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="bloom" />
+  <project path="packages/apps/FaceUnlock" name="packages_apps_FaceUnlock" remote="gitlab" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="bloom" />
   <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="bloom" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="bloom" />
@@ -90,6 +88,9 @@
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="bloom" />
   <project path="packages/apps/TouchGestures" name="packages_apps_TouchGestures" remote="bloom" />
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="bloom" />
+
+  <!-- Packages Services -->
+  <project path="packages/services/SmartSpace" name="packages_services_SmartSpace" remote="halcyon" />
 
   <!-- Packages Modules -->
   <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" remote="bloom" />
