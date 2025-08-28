@@ -6,13 +6,13 @@
            revision="lineage-22.2" />
 
   <!-- Device -->
-  <project remote="lineage-qcom" path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" revision="lineage-22.2" />
-  <project remote="lineage-qcom" path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy" revision="lineage-22.2-legacy-um" />
+  <project remote="lineage-qcom" path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" revision="lineage-23.0" />
+  <project remote="lineage-qcom" path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy" revision="lineage-23.0-legacy-um" />
   <!-- TO DO: Track from LineageOS after fixes merged -->
   <project remote="bloom" path="device/qcom/sepolicy_vndr/legacy-um" name="device_qcom_sepolicy_vndr_legacy-um" />
-  <project remote="lineage-qcom" path="device/qcom/sepolicy_vndr/sm8450" name="android_device_qcom_sepolicy_vndr" revision="lineage-22.2-caf-sm8450" />
-  <project remote="lineage-qcom" path="device/qcom/sepolicy_vndr/sm8550" name="android_device_qcom_sepolicy_vndr" revision="lineage-22.2-caf-sm8550" />
-  <project remote="lineage-qcom" path="device/qcom/sepolicy_vndr/sm8650" name="android_device_qcom_sepolicy_vndr" revision="lineage-22.2-caf-sm8650" />
+  <project remote="lineage-qcom" path="device/qcom/sepolicy_vndr/sm8450" name="android_device_qcom_sepolicy_vndr" revision="lineage-23.0-caf-sm8450" />
+  <project remote="lineage-qcom" path="device/qcom/sepolicy_vndr/sm8550" name="android_device_qcom_sepolicy_vndr" revision="lineage-23.0-caf-sm8550" />
+  <project remote="lineage-qcom" path="device/qcom/sepolicy_vndr/sm8650" name="android_device_qcom_sepolicy_vndr" revision="lineage-23.0-caf-sm8650" />
 
   <project remote="bloom" path="hardware/qcom/wlan" name="hardware_qcom_wlan" groups="qcom" /> 
   <project remote="bloom" path="hardware/qcom-caf/common" name="hardware_qcom-caf_common" groups="qcom,qssi">

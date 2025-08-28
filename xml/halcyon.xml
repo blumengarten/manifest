@@ -48,7 +48,6 @@
 
   <!-- Device -->
   <project path="device/halcyon/sepolicy" name="device_halcyon_sepolicy" remote="bloom" />
-  <project path="device/lineage/sepolicy" name="device_lineage_sepolicy" remote="bloom" />
 
   <!-- External -->
   <project path="external/exfatprogs" name="android_external_exfatprogs" remote="lineage" />

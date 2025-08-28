@@ -5,6 +5,9 @@
   <!-- TO DO: Track from LineageOS after fixes merged -->
   <!-- <project path="device/lineage/sepolicy" name="android_device_lineage_sepolicy" remote="lineage" /> -->
 
+  <!-- Device -->
+  <project path="device/lineage/sepolicy" name="android_device_lineage_sepolicy" remote="lineage" />
+
   <!-- External -->
   <project path="external/avb" name="android_external_avb" remote="lineage" revision="refs/changes/19/433319/1" />
   <project path="external/bash" name="android_external_bash" remote="lineage" />
