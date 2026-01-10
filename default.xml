@@ -2,14 +2,11 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch=".."
+           fetch="https://android.googlesource.com"
            review="https://android-review.googlesource.com/" />
   <default revision="refs/tags/android-16.0.0_r4"
            remote="aosp"
            sync-j="4" />
-
-  <superproject name="platform/superproject" remote="aosp" revision="android-16.0.0_r4"/>
-  <contactinfo bugurl="go/repo-bug" />
 
   <!-- BEGIN open-source projects -->
   <project path="build/make" name="platform/build" groups="pdk,sysui-studio" >
@@ -1041,5 +1038,13 @@
     <copyfile src="lk_inc.mk" dest="lk_inc.mk" />
   </project>
   <!-- END open-source projects -->
+
+  <!-- Remove unused AOSP repos  -->
+  <include name="xml/aosp-remove.xml" />
+
+  <!-- Track Halcyon and other projects repository -->
+  <include name="xml/halcyon.xml" />
+  <include name="xml/qcom.xml" />
+  <include name="xml/other.xml" />
 
 </manifest>
